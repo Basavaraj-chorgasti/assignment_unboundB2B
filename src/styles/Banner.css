@@ -1,0 +1,48 @@
+.topbanner {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(1, 0, 0, 0.2), rgba(8, 0, 0, 0.2)), url('https://s3-alpha-sig.figma.com/img/d787/5dfc/66b935b57fa83634ef2115a6ae21dd6f?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oD-Z2NENWaPn39vKGnyedd2SGPXob~i260RNC-xAWo9saLgnF00m91wa2kJ6Vqn0kExvBpUev-l913Jffm6br9y-Y7r0OdGQVdjd74mzUKL79kK6B5fL~sSWNnr4EUXE7sBvyLW-CLbxGaTk4V7G9SKVIymWoEGu1UaVEsJLuntu5HKSu1rKiSYeZncPBERZGx77livoYEiHcQwahYYla4v1F8shpmeNdsDGAv-JsPv29seWZFQM~Oq-ZaLR3NAaL1v6iOAfhDLrsYgvXvFp7p1FqGBJm1bgnUoYpzO7DoG1xgUFycB-QE3aQDvemaSSaEyuOWwo5VkAkPotJ2n77w__');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbanner-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.topbanner-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.topbanner-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* ---------- media query --------- */
+
+@media (max-width: 850px) {
+    .topbanner-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .topbanner-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .topbanner-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}

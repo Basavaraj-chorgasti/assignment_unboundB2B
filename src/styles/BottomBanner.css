@@ -1,0 +1,49 @@
+.bottombanner {
+    width: 85%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(1, 0, 26, 0.4), rgba(8, 0, 27, 0.4)), url('https://s3-alpha-sig.figma.com/img/2504/f5ee/6f421923473cc9f31e689cbb9b461aae?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LX2tdtO~-0P-rIGZ7MpQRKl5fvVfyh3YErvbDG23uUKNlWlli5Oz-s8rf~QGFjdYxUERXbXcx85Oplq-WiCCS20dQh94kZnxQn9WcJkgGCh46LL9VcL3FNSDa1fgMdkkre8JdL-3BTWxJJ-FtQ9GlCI81WhjpE7ci1uAlDCbfwt0vI9BqenKcQtiQApUliH0mks3xs5-BQP-ha1Pm-xaQZYmR25FJqYOFgPJFuF9xFM9oqW4ccX0fSLARrLRp27ZkXoxIH7gfE8GIP~gpWwBlX6TilTQca21rRNxDeK6B-P2FhWqyCVxO9q5MR4bFpK7uN8SHWepvG~5Y42uIXbSng__');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.bottombanner-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.bottombanner-text h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.bottombanner-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* ---------- media query --------- */
+
+@media (max-width: 850px) {
+    .bottombanner-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .bottombanner-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .bottombanner-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
