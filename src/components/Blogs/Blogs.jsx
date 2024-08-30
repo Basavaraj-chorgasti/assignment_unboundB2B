@@ -12,9 +12,9 @@ import Col from "react-bootstrap/Col";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { data } from "@/constants";
 import Figure from "react-bootstrap/Figure";
-// import Image from "react-bootstrap/Image";
-import image50 from "../../../public//icons8-image-50.png"
-import Image from "next/image";
+import Image from "react-bootstrap/Image";
+// import image50 from "../../../public//icons8-image-50.png"
+// import Image from "next/image";
 
 const Blogs = () => {
   return (
@@ -37,7 +37,7 @@ const Blogs = () => {
                   {/* <span className="text-right">Aliquam</span> */}
                 </div>
                 <div className="text-right">
-                  <Image src={image50} className="imgsvg" alt=""/>
+                  <img src="/icons8-image-50.png" className="imgsvg" alt=""/>
                 </div>
                 <Figure.Caption>
                   <h2>{item.heading}</h2>

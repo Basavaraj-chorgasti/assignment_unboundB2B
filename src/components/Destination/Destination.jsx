@@ -21,17 +21,13 @@ function Destination() {
         </Row>
       </Container> */}
       
-      {imgdata.map((item) => (
-        <>
-        <div className="program">
+      {imgdata.map((item,i) => (
+        // <>
+        <div className="program" key={i} >
           <img src={item.image} alt="" />
-          <div class="centered" style={{color:"white"}}>{item.content}</div>
-          {/* <div className="caption">
-                <img src={program_icon_1} alt="" />
-                <p>Graduation Degree</p>
-              </div> */}
+          <div className="centered" style={{color:"white"}}>{item.content}</div>
         </div>
-        </>
+        // </>
       ))}
     </div>
     </>
